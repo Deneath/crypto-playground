@@ -1,9 +1,7 @@
-import java.security.SecureRandom
+package accountstests
+
 import java.text.Normalizer
-import java.util.*
 import kotlin.math.floor
-import io.github.novacrypto.SecureCharBuffer
-import io.github.novacrypto.bip39.MnemonicGenerator
 import io.github.novacrypto.hashing.Sha256
 
 private val DELIMITER_REGEX = "[\\s,]+".toRegex()

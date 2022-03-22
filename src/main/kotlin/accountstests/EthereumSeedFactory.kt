@@ -1,3 +1,5 @@
+package accountstests
+
 import org.spongycastle.crypto.digests.SHA512Digest
 import org.spongycastle.crypto.generators.PKCS5S2ParametersGenerator
 import org.spongycastle.crypto.params.KeyParameter
@@ -17,7 +19,7 @@ object EthereumSeedFactory : SeedFactory {
 
 internal object SeedCreator {
 
-    private const val SEED_PREFIX = "mnemonic"
+    private const val SEED_PREFIX = "`accounts tests`.getMnemonic"
     private const val FULL_SEED_LENGTH = 64
 
     fun deriveSeed(

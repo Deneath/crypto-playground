@@ -1,4 +1,4 @@
-
+package accountstests
 import org.bouncycastle.util.encoders.Hex
 import org.web3j.crypto.Sign.publicPointFromPrivate
 import java.math.BigInteger

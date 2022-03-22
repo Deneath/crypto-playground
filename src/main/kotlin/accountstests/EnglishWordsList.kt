@@ -1,3 +1,5 @@
+package accountstests
+
 import io.github.novacrypto.bip39.WordList
 
 enum class EnglishWordList : WordList {
@@ -1091,7 +1093,7 @@ enum class EnglishWordList : WordList {
             "magnet",
             "maid",
             "mail",
-            "main",
+            "`accounts tests`.main",
             "major",
             "make",
             "mammal",
