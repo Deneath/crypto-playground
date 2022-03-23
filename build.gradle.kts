@@ -48,6 +48,13 @@ dependencies {
     implementation("org.eclipse.birt.runtime.3_7_1:org.apache.xerces:$apacheXercesVersion")
     implementation("io.github.novacrypto:BIP39:$bip39version")
     implementation("io.github.novacrypto:securestring:$bip39version@jar")
+
+//    implementation("io.ktor:ktor-client-core:1.6.8")
+//    implementation("io.ktor:ktor-client-cio:1.6.8")
+//    implementation("io.ktor:ktor-client-websockets:1.6.8")
+    implementation("com.neovisionaries:nv-websocket-client:2.14")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+    implementation("com.google.code.gson:gson:2.9.0")
 }
 
 tasks.test {
